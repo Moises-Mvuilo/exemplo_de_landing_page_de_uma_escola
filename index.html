@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="Pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Escola DNC</title>
+</head>
+
+<body>
+
+    <style>
+        #menusuperior {
+            background-image: url(./image/fundo.jpg);
+            height: 450px;
+        }
+    </style>
+
+        <!--MENU SUPERIOR-->
+    <div id="menusuperior">
+        <a target="_blank" href="https://www.escoladnc.com.br/">
+            <img id="image" src="image/logo.png" alt="error" ></a>
+        
+            <h1 class="coreTexto">Aprenda com especialistas e <br>
+        comece seu primeiro projcto</h1>
+
+        <p id="paraGrafo" class="coreTexto">Inscreva-se no curso gratuito de Introdução à <br>
+            Tecnologia da DNC School e aprenda os principais <br>
+            fundamentos para construir experiências efetivas</p>
+    </div>
+
+        <!--MENU INFORMACIONAL-->
+        <div id="menuinformacional">
+            <img id="certificado" src="/image/certificado.png" alt="" class="icone">
+            <p class="textoinformativo">Certificado de conclusão</p>
+           
+            <img id="hora" src="image/hora.png" alt="" class="icone">
+            <p class="textoinformativo">4 Horas de contéudos</p>
+            
+            <img id="video1" src="image/video.png" alt="" class="icone">
+            <p class="textoinformativo">Aulas online gravadas</p>
+        </div>
+
+        <!--SEÇÃO VIDEO-->
+        <div id="secaovideo">
+            <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/KE9TSDqh6iw"
+                title="Do Zero a Programador Full Stack: O que é Full Stack? O que eu preciso estudar?" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+            picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            <div>
+                  <h1 id="titulovideo">Aprenda com especialistas e <br>
+                            comece seu primeiro projcto</h1>
+                        
+                  <p id="textovideo">
+                            Conheça o processo de desenvolvimento e entenda como utilizar <br>
+                            os principais métodos e ferramentas da áre para resolver <br>
+                            problemas complexos. <br><br>
+                        
+                            Conquiste seu certificado e desenvolva um projeto prático <br>
+                            para aplicar seus conhecimentos.
+                 </p>
+            </div>
+        </div>
+
+        <!--CAROSSEL-->
+        <div id="carossel">
+            <h1 id="titulo-carossel">Mais de 500 alunos já iniciaram seus estudos</h1>
+           
+        <!--DIVISÃO DOS CARDS-->
+        <div id="div-cards">
+                <img id="Retroceder" src="./cards/Retroceder.png" class="seta" alt="">
+                <img id="leonardo" class="card" src="cards/leonardo.jpg" alt="">
+                <img id="jorgina" class="card" src="cards/jorgina.jpg" alt="">
+                <img id="Ana" class="card" src="cards/Ana.jpg" alt="">
+                <img id="gloria" class="card" src="cards/gloria.jpg" alt="">
+                <img id="african" class="card" src="cards/african.jpg" alt="">
+        
+                <img id="Avanca" onclick="RolarParaDireita()" src="cards/Avanca.png"  class="seta" alt="">
+            </div>
+
+        </div>
+        
+    <!--JAVASCRIPT-->
+    <script src="js/script1.js"></script>
+    
+</body>
+</html>
